@@ -17,6 +17,7 @@ import { SITE_TITLE } from "../config";
     <HeaderLink href="https://github.com/omargabrielaguilar" target="_blank">
       GitHub
     </HeaderLink>
+    <button id="themechange">Theme</button>
   </nav>
 </header>
 <style>
@@ -27,5 +28,16 @@ import { SITE_TITLE } from "../config";
     margin: 0.5em 0;
 		
 	}
-
 </style>
+
+<script is:inline>
+  const buttonTheme = document.querySelector("#themechange") 
+  buttonTheme.onclick = changeTheme;
+  
+  const body = document.querySelector(".body")
+
+  function changeTheme(){
+    body.classList.toggle("light-mode");
+  }
+
+</script>
