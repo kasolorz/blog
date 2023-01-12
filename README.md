@@ -1,13 +1,17 @@
-# Astro Starter Kit: Blog
+# Starter Kit: Blog
+
+Recommend use this script for create a template: fast and ease
 
 ```
 npm create astro@latest -- --template blog
 ```
 
+- ✅ Do u wanna **try**
+
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/withastro/astro/tree/latest/examples/blog)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+> 🧑‍🚀 **My Template** Delete this file. Have fun!
 
 
 ![blog](https://user-images.githubusercontent.com/4677417/186189140-4ef17aac-c3c9-4918-a8c2-ce86ba1bb394.png)
@@ -23,7 +27,7 @@ Features:
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+Inside of Astro project, you'll see the following folders and files:
 
 ```
 ├── public/
@@ -56,10 +60,10 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## 👀 Deployment Vercel
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Check out [documentation](https://docs.astro.build/en/guides/deploy/vercel/).
 
 ## Credit
 
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+This theme is based [Bear Blog](https://github.com/HermanMartinus/bearblog/).
